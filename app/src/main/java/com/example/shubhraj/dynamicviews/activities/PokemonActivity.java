@@ -69,7 +69,7 @@ public class PokemonActivity extends AppCompatActivity
             for(String str:pokemonList)
             {
                 try {
-                    Thread.sleep(1000);
+                    Thread.sleep(10000);
                     newPokemonList.add(str);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
